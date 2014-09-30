@@ -1,0 +1,21 @@
+Alias /llama-magic/ "D:/NCDIR/Llama/results/"
+<Directory "D:/NCDIR/Llama/results/">
+    AllowOverride None
+    Options None
+    Order allow,deny
+    Allow from all
+</Directory>  
+Alias /llama-magic-html/ "D:/NCDIR/Llama/html/"
+<Directory "D:/NCDIR/Llama/html/">
+    AllowOverride None
+    Options None
+    Order allow,deny
+    Allow from all
+</Directory>
+ScriptAlias /llama-magic-cgi/ "D:/NCDIR/Llama/cgi-bin/"
+<Directory "D:/NCDIR/Llama/cgi-bin/">
+    AllowOverride None
+    Options None
+    Order allow,deny
+    Allow from all
+</Directory>
