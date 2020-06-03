@@ -22,4 +22,4 @@ output: txt file with extracted information used in step 3 below
 
 3) map_peptides_to_proteins.pl: the main LM algorithm - maps peptides back to sequences and finds CDR regions, ranks candidate nano bodies based on coverage of CDR regions, etc.  
 input: file from step 2 above, fasta file containing protein sequences (longest_nr.fasta), xml file from Tandem output, 1/0 parameter whether to show the 'score' for a candidate nano body  
-output: html file containing results of LM algorithm - the candidate nano bodies ranked
+output: html file containing results of LM algorithm - the candidate nano bodies ranked * Note:  the matching peptides are shown with a link to a program called peptides.pl, which requires a web server to execute (it is a CGI script) and will show the details of the 'best matching spectrum' for that peptide.  
