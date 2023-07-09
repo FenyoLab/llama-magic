@@ -1,8 +1,15 @@
 # llama-magic
 
+
+*****
+
+This repository is outdated.  Please refer to https://github.com/FenyoLab/Llama_Nanobodies for the latest Llama Magic code!
+
+*****
+
 LM workflow
 
-To create a database for searching:
+To create a database for searching :
 
 1) dnatoprot_longest_nr.pl: translates to protein sequences, outputting only the longest non redundant reading frame  
 input: fasta file from output of e.g. MiSeq (note, if paired end reads must be merged using a separate tool first)  
